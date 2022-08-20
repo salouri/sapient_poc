@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
+:root {
+  /* --sidebar-flex: 1.5; */
+  --sidebar-flex: 1;
+  --condiv-flex: 6;
+  --fontsize-p: 1.2rem;
+  --fontsize-nav: 1.6rem;
+  --typing-font: 3rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Raleway';
+  background-color: #f4f5f9;
+}
+
+header {
+  text-align: left;
+  width: 100%;
+  color: #f1f6f9;
+  background: #4b55a1;
+  padding: 20px;
+  font-weight: 700;
+  position: absolute;
+  top: 0px;
+  height: 60px;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.App {
+  position: relative;
+  display: block !important;
+  width: 100vw;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #f4f5f9;
+}
+
+.condiv {
+  padding: 10px;
+  left: 0;
+  margin: 70px auto 20px;
+  background-color: #f4f5f9;
+  position: absolute;
+  display: inline-block;
+  width: 100vw;
+}
+
+#basic-navbar-nav {
+  align-items: center;
+}
+
+.navbar {
+  /* display: inline-block; */
+  top: 60px;
+}
+.navbar-nav {
+  margin: 15px auto 0px;
+  background: #f4f5f9;
+}
+
+.navbar-nav .nav-link {
+  font-size: var(--fontsize-nav);
+  text-align: center;
+  list-style-type: none;
+  list-style: none;
+  text-decoration: none;
+  color: rgb(28, 37, 163) !important;
+}
+.nav-link {
+  margin: 0px 20px;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #4b55a1;
+}
+
+.social {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.social i {
+  padding-right: 30px;
+  font-size: 25px;
+  color: #9a9b9c;
+}
+.social i:hover {
+  color: #ffffff;
+}
+
+.subtopic {
+  text-align: center;
+  font-family: arial, sans-serif;
+  margin: 10px 10px 30px 10px !important;
+}
+
+.form-group {
+  text-align: left;
+}
+#search-card-form .form-group {
+  display: flex;
+}
+.form-label {
+  padding: 16px;
+  white-space: nowrap;
+  margin-right: 10px;
+}
+
+.submitSuccess {
+  visibility: visibile;
+  color: rgb(62, 133, 55);
+  font-weight: bold;
+  opacity: 1;
+  transition: visibility 0.5s, opacity 0.5s linear;
+}
+
+.cardsTableContainer {
+  padding-top: 5px;
+  margin: 20px 30px;
+}
+.cardsTable {
+  margin: 10px auto;
+  text-align: center;
+  font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 90%;
+  display: inline-box;
+}
+
+.cardsTable td,
+.cardsTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.cardsTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.cardsTable tr:hover {
+  background-color: #ddd;
+}
+
+.cardsTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4b55a1;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h2 {
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+h2 span {
+  font-weight: 400;
+}
+
+p {
+  font-weight: 300;
+  margin: 20px 0;
+  line-height: 1.3em;
+}
+
+.submitButton {
+  margin: 25px;
+  padding: 8px 14px;
+  font-size: 18px;
+}
